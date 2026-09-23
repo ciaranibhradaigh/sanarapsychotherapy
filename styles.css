@@ -9,13 +9,34 @@ html{
 }
 
 body{
-  background:#f7f5f1;
+  background:#FADEF3;
   color:#2b3823;
   padding-top:50px;
   line-height:1.65;
   font-weight:300;
   overflow-x:hidden;
 }
+
+    section{
+    padding:100px 0;
+    position:relative;
+  }
+
+  section::after{
+    content:"";
+    width:80px;
+    height:1px;
+    background:#d7ddd2;
+    position:absolute;
+    bottom:0;
+    left:50%;
+    display:none;
+    transform:translateX(-50%);
+  }
+
+  section:last-of-type::after{
+    display:none;
+  }
 
 
 
