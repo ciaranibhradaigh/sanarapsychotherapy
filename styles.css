@@ -9,7 +9,8 @@ html{
 }
 
 body{
-  background:#f7dce8;
+  background:#fff8fb;
+  color:#4b2948;
   padding-top:50px;
   line-height:1.65;
   font-weight:300;
@@ -19,7 +20,7 @@ body{
 h1,h2,h3{
   font-family:'Cormorant Garamond', serif;
   font-weight:600;
-  color:#4b2948;
+  color:#29152d;
   letter-spacing:0.3px;
 }
 
