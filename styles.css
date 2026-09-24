@@ -315,6 +315,12 @@ a {
   font-size:2rem;
 }
 
+.howicanhelp .container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 24px;
+}
+
 /* CTA */
 .cta{
   background:#f7dce8;
