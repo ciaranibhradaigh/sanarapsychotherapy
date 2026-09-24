@@ -44,8 +44,28 @@ body{
       width:170px;
       height:170px;
       object-fit:cover;
+      border-radius: 50%
       margin:0 auto 30px;
       margin-top: 10px;
+    }
+
+    .hero{
+      position:relative;
+      min-height:20vh;
+      background:
+        url('images/pinkandblue.jpg') center/cover no-repeat;
+      display:flex;
+      align-items:center;
+      justify-content:center;
+      text-align:center;
+      color:white;
+      padding:0px 20px 10px;
+    }
+
+    .hero-content{
+      max-width:850px;
+      padding:10px;
+      animation:fadeInUp 1.2s ease;
     }
 
 
