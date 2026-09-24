@@ -68,6 +68,47 @@ body{
       animation:fadeInUp 1.2s ease;
     }
 
+    .hero h1{
+      font-size:2.6rem;
+      color:white;
+      margin-bottom:12px;
+      line-height:1.1;
+    }
+
+    .tagline{
+      font-size:1.3rem;
+      margin-bottom:35px;
+      font-style:italic;
+      color:#f4f4f4;
+    }
+
+/* INTRO */
+
+    .intro {
+      background: #edd8e9;
+      padding-top: 30px;
+      padding-bottom:40px;
+      text-align: center;
+    } 
+
+    .intro-btn{
+      display:inline-block;
+      background:white;
+      color:#3e839e;
+      padding:15px 32px;
+      border-radius:50px;
+      font-weight:600;
+      transition:all 0.35s ease;
+      box-shadow:0 10px 25px rgba(0,0,0,0.08);
+      margin:10px 0 30px;
+    }
+
+      .intro-btn:hover{
+    background:#6a8894;
+    transform:translateY(-3px);
+    box-shadow:0 15px 35px rgba(0,0,0,0.12);
+  }
+
 
 /* ABOUT */
 
