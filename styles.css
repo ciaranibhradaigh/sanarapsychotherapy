@@ -133,7 +133,7 @@ a {
     .nav-links a:last-child {
       background: #4b2948;
       color: white;
-      padding: 9px 18px;
+      padding: 9px 9px;
       border-radius: 30px;
     }
     
