@@ -129,13 +129,6 @@ a {
       background:#361f33;
       transition:width 0.3s ease;
     }
-
-    .nav-links a:last-child {
-      background: #4b2948;
-      color: white;
-      padding: 9px 9px;
-      border-radius: 30px;
-    }
     
     .nav-links a:hover::after{
       width:100%;
