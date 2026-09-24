@@ -259,6 +259,28 @@ footer{
   padding: 50px 20px;
   text-align: center;
 }
+
+  footer p{
+    margin-bottom:10px;
+  }
+
+.instagram-link {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+}
+
+.instagram-icon {
+  width: 30px;
+  height: 30px;
+  transition: all 0.3s ease;
+}
+
+.instagram-link:hover .instagram-icon {
+  stroke: #3cb371;
+  transform: scale(1.1);
+}
   
 
 
