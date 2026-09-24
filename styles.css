@@ -65,6 +65,8 @@ body{
 .about-image{
   float:left;
   width:38%;
+  height:100px;
+  object-fit: cover;
   margin:0 45px 25px 0;
 }
 
