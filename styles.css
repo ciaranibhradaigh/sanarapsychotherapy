@@ -16,6 +16,13 @@ body{
   overflow-x:hidden;
 }
 
+h1,h2,h3{
+  font-family:'Cormorant Garamond', serif;
+  font-weight:600;
+  color:#190b4f;
+  letter-spacing:0.3px;
+}
+
     section{
     padding:100px 0;
     position:relative;
