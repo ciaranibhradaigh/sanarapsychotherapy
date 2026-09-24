@@ -161,7 +161,7 @@ h1,h2,h3{
 /* QUALIFICATIONS */
 
 .qualifications{
-  background:#f3c9da;
+  background:#f7dce8;
     }
 
   ul{
@@ -171,32 +171,37 @@ h1,h2,h3{
 /* WHY SANARA */
 
 .whysanara{
-  background:#765b70;
+  background:#f9e8f0;
 }
 
 
 /* HOW I WORK */
 
 .howiwork{
-  background:#f7dce8;
+  background:#dfb4c8;
 }
 
 /* HOW I CAN HELP */
 
 .howicanhelp{
-  background:#f3c9da;
+  background:#f1d1df;
+}
+
+/* CTA */
+.cta{
+  background:#f7dce8;
 }
 
 /* PRACTICAL INFO */
 
 .practicalinfo{
-  background:#dfb4c8;
+  background:#f7dce8;
 }
 
 /* CONTACT */
 
 .contact{
-  background:#ffffff;
+  background:#fff8fb;
 }
 
 .contact-wrapper{
@@ -226,7 +231,7 @@ h1,h2,h3{
 /* FOOTER */
 
 .footer{
-  background:#e81086;
+  background:#29152d;
 }
   
 
