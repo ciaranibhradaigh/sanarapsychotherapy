@@ -129,7 +129,7 @@ h1,h2,h3{
 .about-image{
   float:left;
   width:38%;
-  margin:0 45px 25px 0;
+  margin:25px 45px 25px 0;
 }
 
 .about-image img{
