@@ -188,6 +188,30 @@ h1,h2,h3{
   background:#fcf0fa;
 }
 
+.contact-wrapper{
+    display:grid;
+    grid-template-columns:1fr 1fr;
+    gap:60px;
+    margin-top:50px;
+  }
+
+  .contact-details p{
+    margin-bottom:24px;
+  }
+
+.contact-details a{
+  display: inline-block;
+  color: #2b3823;
+  text-decoration: none;
+  transition: all 0.3s ease;
+}
+
+.contact-details a:hover{
+  color: #3cb371;
+  transform: translateX(4px);
+}
+
+
 /* FOOTER */
 
 .footer{
