@@ -241,7 +241,7 @@ a {
     }
 
       .btn:hover{
-    background: var(--deep-plum);
+    background: #752b6d;
     transform:translateY(-3px);
     box-shadow: 0 12px 25px rgba(75, 41, 72, 0.2);
   }
