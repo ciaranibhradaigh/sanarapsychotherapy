@@ -131,7 +131,7 @@ h1,h2,h3{
       text-decoration: none;
     }
 
-      .intro-btn:hover{
+      .btn:hover{
     background: var(--deep-plum);
     transform:translateY(-3px);
     box-shadow: 0 12px 25px rgba(75, 41, 72, 0.2);
