@@ -201,13 +201,12 @@ h1,h2,h3{
 
 .contact-details a{
   display: inline-block;
-  color: #2b3823;
   text-decoration: none;
   transition: all 0.3s ease;
 }
 
 .contact-details a:hover{
-  color: #3cb371;
+  color: #6ab6f7;
   transform: translateX(4px);
 }
 
