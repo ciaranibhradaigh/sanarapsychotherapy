@@ -422,34 +422,7 @@ Whatever has brought you here, therapy can offer a space to slow things down, ma
   
     elements.forEach(el => observer.observe(el));
 
-  // -------------------------
-  // MOBILE NAVIGATION
-  // -------------------------
-
-  const hamburger = document.querySelector(".hamburger");
-  const mobileMenu = document.querySelector("#mobile-menu");
-  
-  hamburger.addEventListener("click", () => {
-    const isOpen = mobileMenu.classList.toggle("open")
-
-    hamburger.setAttribute("aria-expanded", isOpen);
-    hamburger.setAttribute(
-      "aria-label",
-      isOpen ? "Close navigation menu" : "Open navigation menu"
-      );
-  });
-
-  mobileMenu.querySelectorAll("a").forEach((link) => {
-  link.addEventListener("click", () => {
-    mobileMenu.classList.remove("open");
-
-    hamburger.setAttribute("aria-expanded", "false");
-    hamburger.setAttribute("aria-label", "Open navigation menu");
-  });
-  });
-});
-  
-  </script>
+    </script>
   
 </head>
 </html>
