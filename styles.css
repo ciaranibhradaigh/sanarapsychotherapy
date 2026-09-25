@@ -403,20 +403,20 @@ footer{
     margin-bottom:10px;
   }
 
-.instagram-link {
+.footer-link {
   display: inline-flex;
   align-items: center;
   justify-content: center;
   text-decoration: none;
 }
 
-.instagram-icon {
+.footer-icon {
   width: 30px;
   height: 30px;
   transition: all 0.3s ease;
 }
 
-.instagram-link:hover .instagram-icon {
+.footer-link:hover .footer-icon {
   stroke: #752b6d;
   transform: scale(1.1);
 }
