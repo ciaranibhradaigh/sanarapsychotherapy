@@ -416,6 +416,12 @@ footer{
   transition: all 0.3s ease;
 }
 
+.contact-icon {
+  width: 25px;
+  height: 25px;
+  transition: all 0.3s ease;
+}
+
 .footer-link:hover .footer-icon {
   stroke: #752b6d;
   transform: scale(1.1);
