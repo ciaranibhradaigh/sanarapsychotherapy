@@ -389,6 +389,18 @@ a {
   transform: translateX(4px);
 }
 
+.contact-icon {
+  width: 15px;
+  height: 15px;
+  transition: all 0.3s ease;
+}
+
+.contact-container {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
 
 /* FOOTER */
 
@@ -413,12 +425,6 @@ footer{
 .footer-icon {
   width: 30px;
   height: 30px;
-  transition: all 0.3s ease;
-}
-
-.contact-icon {
-  width: 20px;
-  height: 20px;
   transition: all 0.3s ease;
 }
 
