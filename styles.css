@@ -441,7 +441,7 @@ footer{
   transform: scale(1.1);
 }
 
-@media(max-width:900px){
+/* @media(max-width:900px){
 
   nav {
     padding: 0 20px;
@@ -518,4 +518,4 @@ footer{
       min-height:55vh;
       padding:100px 20px 60px;
     }
-  }
+  } */
