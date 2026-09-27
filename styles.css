@@ -318,7 +318,8 @@ a {
 /* HOW I WORK */
 
 .howiwork{
-  background:#dfb4c8;
+  background:
+  url('images/beach2.jpg') center/cover no-repeat;
 }
 
 /* HOW I CAN HELP */
