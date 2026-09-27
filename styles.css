@@ -320,6 +320,15 @@ a {
 .howiwork{
   background:
   url('images/pinkandblue.jpg') center/cover no-repeat;
+  isolation:isolate;
+    }
+
+.hero::before{
+  content:"";
+  position:absolute;
+  inset:0;
+  background:rgba(255,248,251,0.35);
+  z-index:-1;
 }
 
 /* HOW I CAN HELP */
