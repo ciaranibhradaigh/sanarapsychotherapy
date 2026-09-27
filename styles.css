@@ -188,13 +188,21 @@ a {
       position:relative;
       min-height:90vh;
       background:
-        url('images/lake.jpg') center/cover no-repeat;
+        url('images/beach2.jpg') center/cover no-repeat;
       display:flex;
       align-items:center;
       justify-content:center;
       text-align:center;
       color:white;
       padding:0px 20px 10px;
+    }
+
+    .hero::before{
+      content:"";
+      position:absolute;
+      inset:0;
+      background:rgba(255,248,251,0.35);
+      z-index:-1;
     }
 
     .hero-content{
@@ -207,6 +215,7 @@ a {
       font-size:2.6rem;
       color:white;
       margin-bottom:12px;
+      text-shadow:0 2px 12px rgba(41,21,45,0.25);
       line-height:1.1;
     }
 
@@ -214,6 +223,7 @@ a {
       font-size:1.3rem;
       margin-bottom:35px;
       font-style:italic;
+      text-shadow:0 2px 12px rgba(41,21,45,0.25);
       color:#f4f4f4;
     }
 
