@@ -195,6 +195,7 @@ a {
       text-align:center;
       color:white;
       padding:0px 20px 10px;
+      isolation:isolate;
     }
 
     .hero::before{
