@@ -293,11 +293,11 @@ a {
     padding-left:20px;
   }
 
-qual-images {
+.qual-images {
   width:36%;
 }
 
-qual-images img {
+.qual-images img {
   width:100%;
   height:200px;
 }
