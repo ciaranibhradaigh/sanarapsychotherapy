@@ -10,6 +10,9 @@
 
   <title>Sanara Psychotherapy</title>
 
+</head>
+  <body>
+
   <section class="hero">
     <div class="hero-content">
       <img src="images/sanara-logo.png" alt="Sanara Psychotherapy Logo" class="logo">
@@ -26,8 +29,8 @@
   <nav>
     <div class="nav-logo">
       <img src="images/sanara-logo.png" alt="Sanara Psychotherapy">
-    Sanara Psychotherapy
-  </div>
+      Sanara Psychotherapy
+    </div>
   <div class="nav-links">
     <a href="#about">About Me</a>
     <a href="#howicanhelp">How I Can Help</a>
@@ -56,7 +59,6 @@
 </nav>
 
     <!-- INTRO -->
-
   <section class="intro reveal">
     <div class="container">
       <h2 class="intro">Warm, compassionate and confidential psychotherapy for adults in South Dublin and online.</h2>
@@ -71,7 +73,6 @@ Whatever has brought you here, therapy can offer a space to slow things down, ma
 <!-- ABOUT ME -->
 <section class="about reveal" id="about">
   <div class="container">
-
     <div class="about-image">
     <img src="images/headshot.jpg" alt="Maeve, Psychotherapist at Sanara">
     </div>
@@ -84,21 +85,21 @@ Whatever has brought you here, therapy can offer a space to slow things down, ma
           My approach is warm, compassionate and collaborative. I feel privileged to hear the stories and 
           struggles of the people I work with, and I aim to create a space where you can be yourself without fear of judgement.
         </p> <br>
-      <p>
-        I am a qualified psychotherapist with an <b>MSc in Pluralistic Counselling & Psychotherapy</b> and 
-        I am a <b>Pre-Accredited Member of the Irish Association for Counselling and Psychotherapy (IACP).</b>
-      </p> <br>
-      <p>
-        My professional training has given me a broad range of therapeutic approaches, while my own life 
-        experiences have also given me a particular understanding of grief, loss, relationships, significant 
-        life transitions and neurodiversity to name but a few.
-      </p> <br>
-      <p>
-        I bring that experience with care and awareness, while keeping the focus firmly on <b>you, your experiences and what you need from therapy.</b>
-      </p> <br>
-      <p>
-        You don't need to arrive knowing exactly what's wrong, or even knowing what you want from therapy. We can explore that together.
-      </p>
+        <p>
+          I am a qualified psychotherapist with an <b>MSc in Pluralistic Counselling & Psychotherapy</b> and 
+          I am a <b>Pre-Accredited Member of the Irish Association for Counselling and Psychotherapy (IACP).</b>
+        </p> <br>
+        <p>
+          My professional training has given me a broad range of therapeutic approaches, while my own life 
+          experiences have also given me a particular understanding of grief, loss, relationships, significant 
+          life transitions and neurodiversity to name but a few.
+        </p> <br>
+        <p>
+          I bring that experience with care and awareness, while keeping the focus firmly on <b>you, your experiences and what you need from therapy.</b>
+        </p> <br>
+        <p>
+          You don't need to arrive knowing exactly what's wrong, or even knowing what you want from therapy. We can explore that together.
+        </p>
       </div>
     </div>
 </section>
@@ -128,6 +129,7 @@ Whatever has brought you here, therapy can offer a space to slow things down, ma
           <br>
           <a href="https://www.psychologytoday.com/ie/counselling/maeve-keegan-dublin-dn/1673745" class="btn"> My Psychology Today Profile </a>
         </div>
+      </div>
     </div>
   </section>
 
@@ -408,18 +410,22 @@ Whatever has brought you here, therapy can offer a space to slow things down, ma
             <span>South Dublin & Online</span>
         </div>
     <!-- CONTACT FORM -->
-    <!-- <form id="form">
+          <form action="https://api.web3forms.com/submit" method="POST">
+            <input type="hidden" name="access_key" value="be2c8690-39c8-4247-a264-f548398233d8">
+            <input type="text" name="name" placeholder="Your Name" required>
+            <input type="tel" name="telephone" placeholder="Your Mobile" required>
+            <input type="email" name="email" placeholder="Your Email" required>
+            <textarea name="message" placeholder="Your Message" required></textarea>
+            <button type="submit">Submit</button>
+            <div class="h-captcha" data-captcha="true"></div>
+          </form>
+    <!-- <!-- <form id="form">
         <fieldset>
         <legend><strong>Get in touch</strong></legend>
-          <input type="text" name="name" placeholder="Your Name" required>
-          <input type="tel" name="telephone" placeholder="Your Mobile" required>
-          <input type="email" name="email" placeholder="Your Email" required>
-          <textarea name="message" placeholder="Your Message" required></textarea>
-          <button type="submit">Submit</button>
-        </fieldset>
-      <div class="h-captcha" data-captcha="true"></div>
-    </form> -->
-  </div>
+        </fieldset> -->
+        </div>
+      </div>
+    </div>
 </section>
 
   <!-- FOOTER -->
@@ -504,6 +510,8 @@ Whatever has brought you here, therapy can offer a space to slow things down, ma
     });
 
   </script>
-  
-</head>
+    
+<script src="https://web3forms.com/client/script.js" async defer></script>
+        
+</body>
 </html>
