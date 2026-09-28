@@ -525,7 +525,7 @@ a {
 
 .contact-wrapper{
     display:grid;
-    grid-template-columns:1fr;
+    grid-template-columns:1fr 1fr;
     gap:60px;
     margin-top:50px;
   }
