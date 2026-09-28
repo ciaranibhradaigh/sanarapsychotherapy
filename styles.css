@@ -327,7 +327,7 @@ a {
   content:"";
   position:absolute;
   inset:0;
-  background:rgba(255,248,251,0.35);
+  background:rgba(255,248,251,0.45);
   z-index:-1;
 }
 
