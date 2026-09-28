@@ -476,8 +476,34 @@ Whatever has brought you here, therapy can offer a space to slow things down, ma
     });
   
     elements.forEach(el => observer.observe(el));
+    
+    // ACCORDION SCRIPT
+      
+    const helpHeaders = document.querySelectorAll(".help-header");
+    
+    helpHeaders.forEach(header => {
+      header.addEventListener("click", () => {
 
-    </script>
+      const currentCard = header.parentElement;
+      const isOpen = currentCard.classList.contains("open");
+        
+        // Close all cards
+        document.querySelectorAll(".help-card").forEach(card => {
+          card.classList.remove("open");
+
+          const button = card.querySelector(".help-header");
+          button.setAttribute("aria-expanded", "false");
+        });
+        
+        // Open the clicked card if it wasn't already open
+        if (!isOpen) {
+          currentCard.classList.add("open");
+          header.setAttribute("aria-expanded", "true");
+        }
+      });
+    });
+
+  </script>
   
 </head>
 </html>
