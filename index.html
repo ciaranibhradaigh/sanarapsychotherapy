@@ -410,7 +410,8 @@ Whatever has brought you here, therapy can offer a space to slow things down, ma
             <span>South Dublin & Online</span>
         </div>
     <!-- CONTACT FORM -->
-          <form action="https://api.web3forms.com/submit" method="POST">
+          <form id="form" action="https://api.web3forms.com/submit" method="POST">
+            <fieldset>
             <input type="hidden" name="access_key" value="be2c8690-39c8-4247-a264-f548398233d8">
             <input type="text" name="name" placeholder="Your Name" required>
             <input type="tel" name="telephone" placeholder="Your Mobile" required>
@@ -418,11 +419,8 @@ Whatever has brought you here, therapy can offer a space to slow things down, ma
             <textarea name="message" placeholder="Your Message" required></textarea>
             <button type="submit">Submit</button>
             <div class="h-captcha" data-captcha="true"></div>
+            </fieldset>
           </form>
-    <!-- <!-- <form id="form">
-        <fieldset>
-        <legend><strong>Get in touch</strong></legend>
-        </fieldset> -->
         </div>
       </div>
     </div>
