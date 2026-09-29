@@ -640,6 +640,7 @@ footer{
 .footer-link:hover {
   stroke: #752b6d;
   transform: scale(1.1);
+  transition: all 0.3s ease;
 }
 
 /* PRIVACY POLICY */
