@@ -636,3 +636,11 @@ footer{
   stroke: #752b6d;
   transform: scale(1.1);
 }
+
+/* PRIVACY POLICY */
+
+.privacypolicy {
+    padding:90px 0;
+    position:relative;
+}
+  
