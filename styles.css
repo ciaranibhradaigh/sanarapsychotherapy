@@ -678,3 +678,8 @@ footer{
   padding-left: 25px;
   margin-bottom: 25px;
 }
+
+.privacypolicy li::before {
+    content: "→";
+    margin-right: 10px;
+}
