@@ -637,6 +637,11 @@ footer{
   transform: scale(1.1);
 }
 
+.footer-link:hover {
+  stroke: #752b6d;
+  transform: scale(1.1);
+}
+
 /* PRIVACY POLICY */
 
 .privacypolicy {
