@@ -641,5 +641,40 @@ footer{
 
 .privacypolicy {
   background: #f9e8f0;
+  padding: 90px 20px;
 }
-  
+
+.privacypolicy h1 {
+  font-size: 3.5rem;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.privacypolicy > p:first-of-type {
+  text-align: center;
+  font-size: 0.9rem;
+  color: #76566f;
+  margin-bottom: 50px;
+}
+
+.privacypolicy h2 {
+  max-width: 800px;
+  margin: 40px auto 15px;
+  font-size: 1.8rem;
+}
+
+.privacypolicy p,
+.privacypolicy ul {
+  max-width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.privacypolicy p {
+  margin-bottom: 18px;
+}
+
+.privacypolicy ul {
+  padding-left: 25px;
+  margin-bottom: 25px;
+}
