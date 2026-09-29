@@ -680,6 +680,7 @@ footer{
 }
 
 .privacypolicy ul {
+  list-style: none;
   padding-left: 25px;
   margin-bottom: 25px;
 }
