@@ -297,7 +297,7 @@ a {
 .qual-images {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-  width:180px;
+  width:250px;
 }
 
 .qual-images img {
