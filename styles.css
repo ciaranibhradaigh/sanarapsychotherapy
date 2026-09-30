@@ -182,6 +182,7 @@ a {
       border-radius: 50%;
       margin:0 auto 30px;
       margin-top: 10px;
+      box-shadow:0 2px 12px rgba(41,21,45,0.5);
     }
 
     .hero{
@@ -216,7 +217,7 @@ a {
       font-size:2.6rem;
       color:white;
       margin-bottom:12px;
-      text-shadow:0 2px 12px rgba(41,21,45,0.5);
+      text-shadow:0 2px 12px rgba(41,21,45,0.75);
       line-height:1.1;
     }
 
@@ -224,7 +225,7 @@ a {
       font-size:1.3rem;
       margin-bottom:35px;
       font-style:italic;
-      text-shadow:0 2px 12px rgba(41,21,45,0.5);
+      text-shadow:0 2px 12px rgba(41,21,45,0.75);
       color:#f4f4f4;
     }
 
