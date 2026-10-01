@@ -204,7 +204,9 @@ a {
       content:"";
       position:absolute;
       inset:0;
-      background:rgba(255,248,251,0.35);
+      /* darker overlay */
+      background:rgba(41,21,45,0.28);
+      /* background:rgba(255,248,251,0.35); */
       z-index:-1;
     }
 
@@ -226,11 +228,12 @@ a {
       font-size:1.3rem;
       margin-bottom:35px;
       font-style:italic;
-      text-shadow:
+      text-shadow:0 3px 10px rgba(41,21,45,0.75);
+      /* text-shadow:
     -1px -1px 0 rgba(0,0,0,0.55),
      1px -1px 0 rgba(0,0,0,0.55),
     -1px  1px 0 rgba(0,0,0,0.55),
-     1px  1px 0 rgba(0,0,0,0.55);
+     1px  1px 0 rgba(0,0,0,0.55); */
       color:white;
     }
 
