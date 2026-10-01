@@ -226,7 +226,15 @@ a {
       font-size:1.3rem;
       margin-bottom:35px;
       font-style:italic;
-      text-shadow:0 2px 12px rgba(41,21,45,1.0);
+      text-shadow:
+            -2px -2px 0 #000,
+            2px -2px 0 #000,
+            -2px 2px 0 #000,
+            2px 2px 0 #000,
+            -3px 0px 0 #000,
+            3px 0px 0 #000,
+            0px -3px 0 #000,
+            0px 3px 0 #000;
       color:white;
     }
 
