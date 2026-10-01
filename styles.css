@@ -226,8 +226,8 @@ a {
       font-size:1.3rem;
       margin-bottom:35px;
       font-style:italic;
-      text-shadow:0 2px 12px rgba(41,21,45,0.90);
-      color:#FFD700;
+      text-shadow:0 2px 12px rgba(41,21,45,1.0);
+      color:white;
     }
 
 /* INTRO */
