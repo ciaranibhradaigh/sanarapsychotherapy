@@ -582,7 +582,7 @@ a {
     border:none;
     border-radius:14px;
     font-family:'Cormorant', serif;
-    text-decoration:underline;
+    font-weight: bold;
   }
 
       input:focus,
