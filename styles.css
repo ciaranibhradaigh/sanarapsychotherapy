@@ -206,7 +206,7 @@ a {
       inset:0;
       /* darker overlay */
       /* background:rgba(41,21,45,0.28); */
-      background:rgba(255,248,251,0.30);
+      background:rgba(255,248,251,0.35);
       z-index:-1;
     }
 
@@ -483,6 +483,26 @@ a {
   background: rgba(75, 41, 72, 0.03);
 }
 
+/* mobile help cards */
+
+@media (max-width: 768px) {
+
+  .help-grid {
+    grid-template-columns: 1fr;
+    gap: 12px;
+  }
+
+  .help-header {
+    padding: 20px;
+    font-size: 1.35rem;
+  }
+
+  .help-content p {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+}
+
 /* CTA */
 
 .cta{
@@ -683,117 +703,4 @@ footer{
 .privacypolicy li::before {
     content: "→";
     margin-right: 10px;
-}
-
-/* MOBILE */
-
-@media (max-width: 768px) {
-
-  .container {
-    width: 90%;
-  }
-
-  section {
-    padding: 50px 0;
-  }
-
-  .section-title {
-    font-size: 2.3rem;
-  }
-
-  nav {
-    padding: 0 20px;
-    height: 60px;
-  }
-
-  .nav-links {
-    display: none;
-  }
-
-  .hamburger {
-    display: flex;
-  }
-
-  .mobile-menu {
-    width: 100%;
-    flex-direction: column;
-    position: absolute;
-    top: 60px;
-    left: 0;
-    background: #fff8fb;
-    padding: 15px 20px;
-  }
-
-  .mobile-menu.open {
-    display: flex;
-  }
-
-  .mobile-menu a {
-    padding: 12px 0;
-  }
-
-  .hero {
-    min-height: 80vh;
-    padding: 30px 20px;
-  }
-
-  .logo {
-    width: 140px;
-    height: 140px;
-  }
-
-  .hero h1 {
-    font-size: 2.2rem;
-  }
-
-  .tagline {
-    font-size: 1.1rem;
-  }
-
-
-  .about-image,
-  .room-image {
-    float: none;
-    width: 100%;
-    margin: 0 0 30px;
-  }
-
-  .about-image img,
-  .room-image img {
-    height: 300px;
-  }
-
-  .why-sanara-layout {
-    display: flex;
-    flex-direction: column;
-    gap: 30px;
-  }
-
-  .help-grid {
-    grid-template-columns: 1fr;
-    gap: 12px;
-  }
-
-  .help-header {
-    padding: 20px;
-    font-size: 1.35rem;
-  }
-
-  .help-content p {
-    padding-left: 20px;
-    padding-right: 20px;
-  }
-  .contact-wrapper {
-    grid-template-columns: 1fr;
-    gap: 30px;
-  }
-
-  form {
-    padding: 20px;
-  }
-
-  .btn {
-    width: 100%;
-    max-width: 320px;
-  }
 }
