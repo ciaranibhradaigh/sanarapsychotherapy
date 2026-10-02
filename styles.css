@@ -206,7 +206,7 @@ a {
       inset:0;
       /* darker overlay */
       /* background:rgba(41,21,45,0.28); */
-      background:rgba(255,248,251,0.35);
+      background:rgba(255,248,251,0.30);
       z-index:-1;
     }
 
