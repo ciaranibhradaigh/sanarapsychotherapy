@@ -483,26 +483,6 @@ a {
   background: rgba(75, 41, 72, 0.03);
 }
 
-/* mobile help cards */
-
-@media (max-width: 768px) {
-
-  .help-grid {
-    grid-template-columns: 1fr;
-    gap: 12px;
-  }
-
-  .help-header {
-    padding: 20px;
-    font-size: 1.35rem;
-  }
-
-  .help-content p {
-    padding-left: 20px;
-    padding-right: 20px;
-  }
-}
-
 /* CTA */
 
 .cta{
@@ -791,9 +771,18 @@ footer{
 
   .help-grid {
     grid-template-columns: 1fr;
+    gap: 12px;
   }
 
-  /* Contact */
+  .help-header {
+    padding: 20px;
+    font-size: 1.35rem;
+  }
+
+  .help-content p {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
   .contact-wrapper {
     grid-template-columns: 1fr;
     gap: 30px;
