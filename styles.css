@@ -111,7 +111,7 @@ a {
       align-items:center;
       gap:10px;
       font-family:'Cormorant Garamond', serif;
-      font-size:1.3rem;
+      font-size:1.4rem;
       letter-spacing:0.5px;
     }
 
@@ -127,7 +127,7 @@ a {
     .nav-links a{
       position:relative;
       font-weight:500;
-      font-size:0.95rem;
+      font-size:1.1rem;
       letter-spacing:0.3px;
     }
     
