@@ -112,5 +112,64 @@
       <h2>9. Changes to this Privacy Policy</h2>
       <p>We may update this Privacy Policy from time to time. Any changes will be published on this page with an updated "Last updated" date.</p>
     </section>
+
+
+    <script>
+      
+      // MOBILE HAMBURGER MENU
+      
+      const hamburger = document.querySelector(".hamburger");
+      const mobileMenu = document.querySelector(".mobile-menu");
+
+      hamburger.addEventListener("click", () => {
+  
+        const isOpen = mobileMenu.classList.toggle("open");
+      
+        hamburger.classList.toggle("active", isOpen);
+      
+        hamburger.setAttribute(
+          "aria-expanded",
+          isOpen ? "true" : "false"
+        );
+      
+        hamburger.setAttribute(
+          "aria-label",
+          isOpen ? "Close navigation menu" : "Open navigation menu"
+        );
+      });
+      
+      // Close menu when a navigation link is clicked
+
+      const mobileLinks = document.querySelectorAll(".mobile-menu a");
+      
+      mobileLinks.forEach(link => {
+        link.addEventListener("click", () => {
+      
+          mobileMenu.classList.remove("open");
+          hamburger.classList.remove("active");
+      
+          hamburger.setAttribute("aria-expanded", "false");
+          hamburger.setAttribute("aria-label", "Open navigation menu");
+      
+        });
+      });
+
+
+      // Close menu if the user presses Escape
+      
+      document.addEventListener("keydown", (event) => {
+      
+        if (event.key === "Escape") {
+      
+          mobileMenu.classList.remove("open");
+          hamburger.classList.remove("active");
+      
+          hamburger.setAttribute("aria-expanded", "false");
+          hamburger.setAttribute("aria-label", "Open navigation menu");
+      
+        }
+      });
+  
+  </script>
   </body>
 </html>
