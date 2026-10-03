@@ -736,45 +736,10 @@ footer{
   }
 
 
-
-  .container {
-    width: 90%;
-  }
-
-  section {
-    padding: 80px 0;
-  }
-
-  .hero {
-    min-height: 55vh;
-    padding: 80px 20px 60px;
-  }
-
-  .hero h1 {
-    font-size: 3.5rem;
-  }
-
-    .section-title {
-    font-size: 2.5rem;
-  }
-
-  .tagline {
-    font-size: 1.1rem;
-  }
-
-  .logo {
-    width: 140px;
-    height: 140px;
-  }
-
   .about-image {
     float: none;
     width: 100%;
     margin: 0 0 30px 0;
-  }
-
-  .about-image img {
-    width: 100%;
   }
 
   .qual-grid {
@@ -782,12 +747,7 @@ footer{
   }
 
   .why-sanara-layout {
-    display: block;
-  }
-
-  .cblossom-image {
-    width: 100%;
-    margin-top: 30px;
+    grid-template-columns: 1fr;
   }
 
   .help-grid {
@@ -804,32 +764,19 @@ footer{
     grid-template-columns: 1fr;
   }
 
-  form {
-    margin-top: 20px;
+
+  .about-image img,
+  .cblossom-image img,
+  .room-image img {
+    width: 100%;
   }
 
-  .btn {
-    display: inline-block;
-    max-width: 100%;
-  }
-  
-  @media (max-width: 768px) {
-    
-    .help-grid {
-    grid-template-columns: 1fr;
-    gap: 12px;
+
+  .qual-images {
+    width: 100%;
+    max-width: 280px;
   }
 
-  .help-header {
-    padding: 20px;
-    font-size: 1.35rem;
-  }
-
-  .help-content p {
-    padding-left: 20px;
-    padding-right: 20px;
-  }
-}
 }
 
 
