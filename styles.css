@@ -206,7 +206,7 @@ a {
       inset:0;
       /* darker overlay */
       /* background:rgba(41,21,45,0.28); */
-      background:rgba(255,248,251,0.20);
+      background:rgba(255,248,251,0.35);
       z-index:-1;
     }
 
@@ -218,7 +218,7 @@ a {
 
     .hero h1{
       font-size:2.6rem;
-      color:white;
+      color:#29152d;
       margin-bottom:12px;
       text-shadow:0 2px 12px rgba(41,21,45,0.75);
       line-height:1.1;
@@ -234,7 +234,7 @@ a {
      1px -1px 0 rgba(0,0,0,0.55),
     -1px  1px 0 rgba(0,0,0,0.55),
      1px  1px 0 rgba(0,0,0,0.55); */
-      color:white;
+      color:#29152d;
     }
 
 /* INTRO */
