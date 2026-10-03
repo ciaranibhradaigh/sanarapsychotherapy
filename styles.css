@@ -702,6 +702,10 @@ footer{
     padding: 0 20px;
   }
 
+  .nav-logo {
+    height:50px;
+  }
+
   .nav-links {
     display: none;
   }
@@ -744,12 +748,12 @@ footer{
   }
 
   .hero {
-    min-height: 55vh;
+    min-height: 65vh;
     padding: 80px 20px 60px;
   }
 
   .hero h1 {
-    font-size: 3.5rem;
+    font-size: 2.8rem;
   }
 
   .logo {
@@ -763,8 +767,10 @@ footer{
     margin: 0 0 30px 0;
   }
 
-  .qual-grid {
+  .qual-images {
     grid-template-columns: 1fr;
+    width: 100%;
+    max-width: 280px;
   }
 
   .why-sanara-layout {
@@ -791,13 +797,6 @@ footer{
   .room-image img {
     width: 100%;
   }
-
-
-  .qual-images {
-    width: 100%;
-    max-width: 280px;
-  }
-
 }
 
 
