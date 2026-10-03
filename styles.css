@@ -705,7 +705,11 @@ footer{
   }
 
   .nav-logo {
-    height:50px;
+    font-size: 1.1rem;
+  }
+
+  .nav-logo img {
+    height: 50px;
   }
 
   .nav-links {
@@ -770,13 +774,24 @@ footer{
   }
 
   .qual-images {
-    grid-template-columns: 1fr;
+    grid-template-columns: repeat(2, 1fr);
+    column-gap: 16px;
     width: 100%;
     max-width: 280px;
+    margin-bottom: 20px;
+  }
+
+  .qual-images a,
+  .qual-images a img {
+    display: block;
+    width: 100%;
+    max-width: 100%;
+    height: auto;
   }
 
   .why-sanara-layout {
     grid-template-columns: 1fr;
+    gap:40px;
   }
 
   .help-grid {
@@ -791,15 +806,6 @@ footer{
 
   .contact-wrapper {
     grid-template-columns: 1fr;
-  }
-
-
-  .about-image img,
-  .cblossom-image img,
-  .room-image img {
-    width: 100%;
+    gap:40px;
   }
 }
-
-
-
