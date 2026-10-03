@@ -483,26 +483,6 @@ a {
   background: rgba(75, 41, 72, 0.03);
 }
 
-/* mobile help cards */
-
-@media (max-width: 768px) {
-
-  .help-grid {
-    grid-template-columns: 1fr;
-    gap: 12px;
-  }
-
-  .help-header {
-    padding: 20px;
-    font-size: 1.35rem;
-  }
-
-  .help-content p {
-    padding-left: 20px;
-    padding-right: 20px;
-  }
-}
-
 /* CTA */
 
 .cta{
@@ -703,4 +683,156 @@ footer{
 .privacypolicy li::before {
     content: "→";
     margin-right: 10px;
+}
+
+/* MOBILE */
+
+@media (max-width: 900px) {
+
+  nav {
+    height: 60px;
+    padding: 0 20px;
+  }
+
+  .nav-links {
+    display: none;
+  }
+
+  .hamburger {
+    display: flex;
+  }
+
+  .mobile-menu {
+    position: absolute;
+    top: 60px;
+    right: 20px;
+    width: 200px;
+    background: #fff8fb;
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.08);
+
+    opacity: 0;
+    visibility: hidden;
+    transform: translateY(-10px);
+    transition: all 0.3s ease;
+  }
+
+  .mobile-menu.open {
+    opacity: 1;
+    visibility: visible;
+    transform: translateY(0);
+  }
+
+  .mobile-menu a {
+    padding: 14px 10px;
+    font-size: 1rem;
+    border-bottom: 1px solid rgba(75,41,72,0.1);
+  }
+
+  .mobile-menu a:last-child {
+    border-bottom: none;
+  }
+
+
+
+  .container {
+    width: 90%;
+  }
+
+  section {
+    padding: 80px 0;
+  }
+
+  .hero {
+    min-height: 55vh;
+    padding: 80px 20px 60px;
+  }
+
+  .hero h1 {
+    font-size: 2.8rem;
+  }
+
+  .tagline {
+    font-size: 1.1rem;
+  }
+
+  .logo {
+    width: 140px;
+    height: 140px;
+  }
+
+  .about-image {
+    float: none;
+    width: 100%;
+    margin: 0 0 30px 0;
+  }
+
+  .about-image img {
+    width: 100%;
+  }
+
+  .qual-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .why-sanara-layout {
+    display: block;
+  }
+
+  .cblossom-image {
+    width: 100%;
+    margin-top: 30px;
+  }
+
+  .help-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .room-image {
+    float: none;
+    width: 100%;
+    margin: 0 0 30px 0;
+  }
+
+  .contact-wrapper {
+    grid-template-columns: 1fr;
+  }
+
+  form {
+    margin-top: 20px;
+  }
+
+  .btn {
+    display: inline-block;
+    max-width: 100%;
+  }
+}
+
+
+@media (max-width: 768px) {
+
+  .section-title {
+    font-size: 2.5rem;
+  }
+
+  .hero h1 {
+    font-size: 2.4rem;
+  }
+
+    .help-grid {
+    grid-template-columns: 1fr;
+    gap: 12px;
+  }
+
+  .help-header {
+    padding: 20px;
+    font-size: 1.35rem;
+  }
+
+  .help-content p {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
 }
