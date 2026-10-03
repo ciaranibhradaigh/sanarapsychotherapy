@@ -751,7 +751,11 @@ footer{
   }
 
   .hero h1 {
-    font-size: 2.8rem;
+    font-size: 3.5rem;
+  }
+
+    .section-title {
+    font-size: 2.5rem;
   }
 
   .tagline {
@@ -808,19 +812,9 @@ footer{
     display: inline-block;
     max-width: 100%;
   }
-}
-
-
-@media (max-width: 768px) {
-
-  .section-title {
-    font-size: 2.5rem;
-  }
-
-  .hero h1 {
-    font-size: 2.4rem;
-  }
-
+  
+  @media (max-width: 768px) {
+    
     .help-grid {
     grid-template-columns: 1fr;
     gap: 12px;
@@ -836,3 +830,7 @@ footer{
     padding-right: 20px;
   }
 }
+}
+
+
+
