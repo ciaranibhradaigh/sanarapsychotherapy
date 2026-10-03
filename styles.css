@@ -1,7 +1,7 @@
 *{
   margin:0;
   padding:0;
-  box-sizing:border-box;
+  box-sizing:border-box; 
 }
 
 html{
@@ -206,7 +206,7 @@ a {
       inset:0;
       /* darker overlay */
       /* background:rgba(41,21,45,0.28); */
-      background:rgba(255,248,251,0.30);
+      background:rgba(255,248,251,0.20);
       z-index:-1;
     }
 
