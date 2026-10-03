@@ -525,6 +525,8 @@ a {
 }
 
   .contact-details p{
+    color:#000000;
+    display: inline-block;
     margin-bottom:24px;
   }
 
